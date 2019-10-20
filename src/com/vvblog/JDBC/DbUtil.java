@@ -15,7 +15,7 @@ public class DbUtil {
     static {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            conn = DriverManager.getConnection(url, "root", "vvblog115");
+            conn = DriverManager.getConnection(url, "root", "lqx8246...");
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
